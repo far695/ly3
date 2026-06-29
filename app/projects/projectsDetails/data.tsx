@@ -37,7 +37,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>东方树叶抖音本地推全案，依托同城流量渠道打造国风茶饮数字化传播语言，标准化广告投放与直播执行流程，精准覆盖本地潜在客群，实现快速种草、线下门店客流提升的营销目标。</p>
       </div>
     ),
-    image: 'https://free.picui.cn/free/20260625/6202f5cd060bca4726fc6acd35b6231c.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-nongfu-spring.jpg',
     tags: ['本地生活推广', '直播间视觉打造', '饮品内容营销']
   },
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>双社媒新品新店全案，打通国内朋友圈私域种草与海外 Instagram 公域曝光渠道，建立从前期素材筹备、分阶段预热投放、落地引流到后期数据复盘的完整标准化流程，以统一岭南国风视觉传递品牌内核，高效完成新品认知渗透、新店开业客流预热的营销目标。</p>
       </div>
     ),
-    image: 'https://free.picui.cn/free/20260625/693165a4e07542906f226789c332838f.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-chaliys.jpg',
     tags: ['饮品内容营销', '新品种草', '新店预热', '朋友圈宣传']
   },
   {
@@ -97,7 +97,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>中国南方电网双渠道电力科普全案，打通朋友圈私域渗透与抖音开屏公域大范围曝光渠道，构建从前期内容策划、视觉素材制作、分批次渠道投放至后期数据复盘的完整运营流程，以专业温和的品牌视觉承载民生用电科普内容，全方位向大众普及安全用电、低碳节电、新型绿色电力相关知识。</p>
       </div>
     ),
-    image: 'https://images.pexels.com/photos/33552892/pexels-photo-33552892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-csg.jpg',
     tags: ['公域流量科普', '民生知识传播', '朋友圈宣传']
   },
   {
@@ -124,7 +124,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>百岁山饮品营销全案，打通私域种草渗透与抖音本地直播公域大范围曝光渠道，构建从前期内容策划、视觉素材制作、分批次渠道投放至后期数据复盘的完整运营流程，以简约高级的品牌视觉承载天然矿泉水产品卖点，全方位向大众传递健康天然饮水知识，依托线上流量赋能线下门店带货转化。</p>
       </div>
     ),
-    image: 'https://free.picui.cn/free/20260625/30037e3919078ab2ff77c14839da9546.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-Ganten.jpg',
     tags: ['信息流带货投放', '饮品内容营销', '直播间视觉打造', '本地生活推广']
   },
   {
@@ -151,7 +151,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>星乐度露营度假区双渠道文旅营销全案，打通朋友圈私域种草渗透与线上直播公域大范围曝光渠道，构建从前期内容策划、视觉素材制作、分批次渠道投放至后期数据复盘的完整运营流程，以轻松童趣的品牌视觉承载亲子露营、主题游乐、短途度假内容，全方位向大众展示一站式亲子露营度假区游玩亮点，吸引家庭客群前往线下体验游玩。</p>
       </div>
     ),
-    image: 'https://free.picui.cn/free/20260625/8229d5b213dee1d15923c3545a990de8.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-sumlodol.jpg',
     tags: ['线上活动宣发', '朋友圈宣传', '线上直播种草']
   },
   {
@@ -178,7 +178,7 @@ export const projects: Project[] = [
         <p style={{ color: '#4e5461' }}>中兴智慧家庭新品传播全案，深耕朋友圈私域种草渗透渠道，构建从前期内容策划、智能场景视觉素材制作、分批次朋友圈投放至后期数据复盘的完整运营流程，以简约高级的科技视觉承载全屋路由、高速互联居家产品内容，全方位向大众展示中兴智慧家庭网络硬件优势，传递便捷流畅的智能居家互联体验，高效完成新品曝光与用户种草转化。</p>
       </div>
     ),
-    image: 'https://free.picui.cn/free/20260625/c139767f8f850f6013a9d641c110045c.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: '/images/project-zte.jpg',
     tags: ['新品种草', '朋友圈宣传', '智能场景视觉包装']
   }
 ] 
