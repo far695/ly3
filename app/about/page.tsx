@@ -60,25 +60,25 @@ export default function AboutPage() {
                 year: '2015',
                 title: '开端',
                 description: '岭羊传媒的创立愿景是打造真正有意义的数字化体验。公司最初只有三名团队成员和一个小型办公室，我们专注于为与我们价值观相同的客户打造有意义的作品。',
-                image: "/images/about-2015.jpg"
+                image: '/images/about-2015.jpg'
               },
               {
                 year: '2018',
                 title: '提升我们的专业技能',
                 description: '随着客户数量的增长，我们的团队和能力也随之增强。我们拓展了服务范围，涵盖全面的品牌战略和数字营销，从而能够提供端到端的解决方案。',
-                image: "/images/about-2018.jpg"
+                image: '/images/about-2018.jpg'
               },
               {
                 year: '2021',
                 title: '国际认可',
                 description: '我们对卓越品质的执着追求获得了多项行业奖项的认可。我们开始与国际客户合作，并树立了我们作为具有前瞻性思维的创意合作伙伴的声誉。',
-                image: "/images/about-2021.jpg"
+                image: '/images/about-2021.jpg'
               },
               {
                 year: '2023',
                 title: '我们今天所处的位置',
                 description: '如今，岭羊传媒汇聚了一群充满热情、富有创意的策略师，致力于帮助品牌驾驭数字化时代。我们不断发展、创新，并突破一切可能的界限。',
-                image: "/images/about-2023.jpg"
+                image: '/images/about-2023.jpg'
               }
             ].map((milestone, index) => (
               <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
