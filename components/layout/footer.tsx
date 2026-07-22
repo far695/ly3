@@ -38,7 +38,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="tel:+14155555555" className="hover:text-foreground transition-colors">
+                <a className="hover:text-foreground transition-colors">
                   微信：sherlock120
                 </a>
               </p>
