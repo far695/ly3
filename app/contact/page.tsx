@@ -41,8 +41,8 @@ export default function ContactPage() {
                   <MessageCircleMore className="h-5 w-5 text-primary" />
                 </div>
                 <div className="text-center">
-                  <h3 className="font-medium mb-1">手机</h3>
-                  <a href="tel:+14155555555" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <h3 className="font-medium mb-1">微信</h3>
+                  <a className="hover:text-foreground transition-colors">
                     sherlock120
                   </a>
                 </div>
