@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </div>
                 <div className="text-center">
                   <h3 className="font-medium mb-1">手机</h3>
-                  <address className="not-italic text-muted-foreground">
+                  <a href="tel:+14155555555" className="text-muted-foreground hover:text-foreground transition-colors">
                     sherlock120
                   </a>
                 </div>
@@ -78,7 +78,7 @@ export default function ContactPage() {
           
           <div className="h-[300px] relative rounded-lg overflow-hidden">
             <Image
-              src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="/images/contact-office.jpg"
               alt="Office location"
               fill
               className="object-cover"
@@ -103,7 +103,7 @@ export default function ContactPage() {
             {[
               {
                 question: '你们提供哪些服务？',
-                answer: '我们提供全方位的服务，包括品牌形象设计、用户体验设计和数字营销。每项服务都根据您企业的具体需求量身定制。'
+                answer: '我们提供全方位的服务，包括品牌形象设计、网站开发、用户体验设计和数字营销。每项服务都根据您企业的具体需求量身定制。'
               },
               {
                 question: '你们的服务收费多少？',
@@ -111,7 +111,7 @@ export default function ContactPage() {
               },
               {
                 question: '一般项目需要多长时间？',
-                answer: '项目工期取决于项目的复杂程度和范围。我们会在初步洽谈中提供工期预估。'
+                answer: '项目工期取决于项目的复杂程度和范围。一个简单的网站可能需要 4-6 周，而一套完整的品牌形象和数字平台可能需要 3-4 个月。我们会在初步洽谈中提供工期预估。'
               },
               {
                 question: '你们与国际客户合作吗？',
