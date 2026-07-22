@@ -42,7 +42,20 @@ export default function ContactPage() {
                 </div>
                 <div className="text-center">
                   <h3 className="font-medium mb-1">微信</h3>
-                  <a onClick={复制微信号逻辑} className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a
+                    href="#"
+                    onClick={async (e) => {
+                      e.preventDefault(); // 阻止a标签默认跳转
+                      const wechatId = "sherlock120";
+                      try {
+                        await navigator.clipboard.writeText(wechatId);
+                        alert("微信号已复制，请打开微信搜索：" + wechatId);
+                      } catch {
+                        alert(`微信号：${wechatId}，请手动复制添加`);
+                      }
+                    }}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
                     sherlock120
                   </a>
                 </div>
