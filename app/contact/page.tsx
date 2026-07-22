@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Mail, Message-circle-more, MapPin, Clock } from 'lucide-react'
+import { Mail, MessageCircleMore, MapPin, Clock } from 'lucide-react'
 
 export default function ContactPage() {
   return (
