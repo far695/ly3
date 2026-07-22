@@ -41,7 +41,7 @@ export default function ContactPage() {
                   <MessageCircleMore className="h-5 w-5 text-primary" />
                 </div>
                 <div className="text-center">
-                  <h3 className="font-medium mb-1">微信</h3>
+                  <h3 className="font-medium mb-1">手机</h3>
                   <address className="not-italic text-muted-foreground">
                     sherlock120
                   </a>
@@ -78,7 +78,7 @@ export default function ContactPage() {
           
           <div className="h-[300px] relative rounded-lg overflow-hidden">
             <Image
-              src="/images/contact-office.jpg"
+              src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Office location"
               fill
               className="object-cover"
