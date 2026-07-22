@@ -38,9 +38,21 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="tel:+14155555555" className="hover:text-foreground transition-colors">
-                  +(86) 18244969959
-                </a>
+                <a 
+                  className="hover:text-foreground transition-colors"
+                  onClick={async () => {
+                    const wechatId = "sherlock120";
+                      try {
+                        await navigator.clipboard.writeText(wechatId);
+                        alert("微信号已复制，请打开微信粘贴搜索添加好友");
+                        window.location.href = "weixin://";
+                      } catch (err) {
+                        alert(`微信号：${wechatId}，请手动复制添加`);
+                      }
+                    }}
+                  >
+                    微信：sherlock120
+                  </a>
               </p>
             </address>
           </div>
