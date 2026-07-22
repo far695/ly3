@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </div>
                 <div className="text-center">
                   <h3 className="font-medium mb-1">微信</h3>
-                  <a href="tel:+14155555555" className="text-muted-foreground hover:text-foreground transition-colors">
+                  <a className="text-muted-foreground hover:text-foreground transition-colors" onClick={复制微信号逻辑}>
                     sherlock120
                   </a>
                 </div>
